@@ -1,5 +1,4 @@
-
-<h1>HOME PAGINA</h1>
+<h1>TIMELINE PAGINA</h1>
 
 <style>
     h1 {

@@ -1,0 +1,16 @@
+/* global */
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+:root {
+    --IMPACT-yellow: #F8F053;
+    --IMPACT-black: black;
+    --IMPACT-white: white;
+}
+
+/* body section */
+body { 
+    background-color: var(--IMPACT-black);
+    color: #F8F053;
+}
