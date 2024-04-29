@@ -6,7 +6,8 @@
         <a href="/TIMELINE">TIMELINE</a> |
         <a href="/CREATIVES">CREATIVES</a> |
         <a href="/ABOUT-US">ABOUT US</a> |
-        <a href="/CONTACT">CONTACT</a>
+        <a href="/CONTACT">CONTACT</a> |
+        <a href="/">HOME</a> 
     </nav>
     
     <!-- BODY -->
