@@ -10,9 +10,6 @@
         <a href="/CONTACT">CONTACT</a> 
     </nav>
     
-    <!-- BODY -->
-    <h1>IMPACT APPLICATIE INCOMING . . .</h1>
-    
 <slot/>
 </main>
 
@@ -22,7 +19,8 @@
         text-decoration: none;
     }
 
-    h1 {
-        color: var(--IMPACT-white);
+    nav {
+        margin: 1em;
+        position: fixed;
     }
 </style>

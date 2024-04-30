@@ -1,10 +1,29 @@
-
- <img src="src/static/logo.png" alt="logo/impact" width="100%">
-<h1>HOME PAGINA</h1>
+<body>
+    <section id="hero-section">
+    <!-- <img src="src/static/logo.png" alt="logo/impact"> -->
+</section>
+</body>
 
 
 <style>
-    h1 {
-        color: white;
+    body {
+        height: 100%;
+        margin: 0;
     }
+
+    #hero-section {
+        background-image: url("/src/static/aftermovie.png");
+        /* Full height */
+        height: 80vh; 
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    /* img {
+        width: 30%;
+        float: right;
+    } */
 </style>
