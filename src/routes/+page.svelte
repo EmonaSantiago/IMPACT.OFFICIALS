@@ -1,5 +1,6 @@
 <body>
     <section id="hero-section">
+        <h1>IMPACT</h1>
         <!-- <img src="src/static/logo.png" alt="logo/impact"> -->
     </section>
 
@@ -52,6 +53,13 @@
 
 
 <style>
+
+    h1 {
+        position: static;
+        font-size: 100px;
+        padding-top: 80px;
+        padding-left: 20px;
+    }
     h2 {
         color: white;
         font-size: 80px;
