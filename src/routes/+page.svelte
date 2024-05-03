@@ -45,6 +45,8 @@
         <!-- your other form fields go here -->
         <a href="/" type="submit" class="button">SEND</a>
         </form>
+
+        <img id="team" src="src/static/team.png" alt="Save the date post">
     </section>
 </body>
 
@@ -111,7 +113,7 @@
 
     #form {
         margin: 1em;
-        height: 80vh;
+        height: 100vh;
         color: white;
     }
 
@@ -156,6 +158,10 @@
     padding: 20px;
     }
 
-    
+    img#team {
+        width: 100%;
+        margin-top: 2em;
+        border-radius: 2em;
+    }
 
 </style>
