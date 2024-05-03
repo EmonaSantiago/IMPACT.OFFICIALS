@@ -81,7 +81,7 @@
     #hero-section {
         background-image: url("/src/static/aftermovie.png");
         /* Full height */
-        height: 80vh; 
+        height: 100vh; 
 
         /* Center and scale the image nicely */
         background-position: center;
