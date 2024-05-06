@@ -164,12 +164,6 @@
     background-color: var(--IMPACT-yellow);
     }
 
-    div {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    }
-
     img#team {
         width: 100%;
         margin-top: 2em;
