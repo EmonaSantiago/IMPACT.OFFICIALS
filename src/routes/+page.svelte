@@ -6,7 +6,7 @@
 
     <section id="upcoming">
         <h2>UPCOMING</h2>
-        <p>ATTENTION IMPACT : WE’RE BACK ⚠️  </p>
+        <p>ATTENTION IMPACT : WE’RE BACK ⚠️</p>
 
         <p>EXCITED TO ANNOUNCE THAT WE’RE ORGANIZING THE 3RD EDITION OF OUR FASHION SHOW AND EXPO EVENT!</p>
         <p>JUNE 1, 2024. MARK IT IN YOUR CALENDAR 📌</p>
@@ -44,7 +44,7 @@
         </label>
         
         <!-- your other form fields go here -->
-        <a href="/" type="submit" class="button">SEND</a>
+        <button type="submit">SUBMIT</button>
         </form>
 
         <img id="team" src="src/static/team.png" alt="Save the date post">
@@ -145,19 +145,23 @@
         color: grey;
     }
 
-    input[type=submit] {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    button[type=submit] {
+        background-color: black;
+        color: white;
+        border: solid 3px var(--IMPACT-yellow);
+        border-radius: 5px;
+        border-color: var(--IMPACT-yellow);
+        padding: 10px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
     }
 
-    input[type=submit]:hover {
-    background-color: #45a049;
+    button[type=submit]:hover {
+    background-color: var(--IMPACT-yellow);
     }
 
     div {
