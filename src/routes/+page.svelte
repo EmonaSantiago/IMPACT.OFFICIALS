@@ -5,6 +5,7 @@
     </section>
 
     <section id="upcoming">
+        <div class="left-content">
         <h2>UPCOMING</h2>
         <p>ATTENTION IMPACT : WE’RE BACK ⚠️</p>
 
@@ -12,14 +13,19 @@
         <p>JUNE 1, 2024. MARK IT IN YOUR CALENDAR 📌</p>
         <p>and for all the interested creatives , models or future crew-members out there, be ready for the next post.. 🏃🏻</p>
         <a href="/" class="button">GET TICKETS</a>
+        </div>
+        <div class="right-content">
         <img id="save-the-date" src="src/static/save-the-date.png" alt="Save the date post">
+        </div>
     </section>
 
     <section id="instagram">
-        <img id="instagram-live" src="src/static/instagram.png" alt="instagram live feed">
+        <!-- <img id="instagram-live" src="src/static/instagram.png" alt="instagram live feed"> -->
+    
     </section>
 
     <section id="form">
+        <div class="left-content">
         <h2>FEEDBACK</h2>
         <p>Jouw IMPACT telt! Vertel ons hoe het was. Jouw feedback maakt het verschil. Vul ons formulier in en laat ons samen groeien!</p>
         <form
@@ -46,8 +52,10 @@
         <!-- your other form fields go here -->
         <button type="submit">SUBMIT</button>
         </form>
-
+    </div>
+    <div class="right-content">
         <img id="team" src="src/static/team.png" alt="Save the date post">
+    </div>
     </section>
 </body>
 
@@ -94,6 +102,7 @@
         height: 100vh;
     }
 
+
     .button {
         border: solid 3px var(--IMPACT-yellow);
         border-radius: 5px;
@@ -108,9 +117,7 @@
     }
 
     img#save-the-date {
-        width: auto;
-        height: 24em;
-        margin-top: 2em;
+        width: 100%;
         border-radius: 2em;
     }
 
@@ -125,9 +132,13 @@
         color: white;
     }
 
-    img#instagram-live{
+    /* img#instagram-live{
     width: 100%;
     border: solid 1px var(--IMPACT-yellow);
+    } */
+
+    #instagram {
+        background-color: grey;
     }
 
     input[type=text]{
@@ -166,8 +177,24 @@
 
     img#team {
         width: 100%;
-        margin-top: 2em;
         border-radius: 2em;
+    }
+
+    /* Media query */
+
+    #upcoming, #form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .left-content, .right-content {
+        flex: 1;
+        margin: 1em;
+    }
+    @media (max-width: 768px) {
+        #upcoming, #form {
+        flex-direction: column;
+        }
+
     }
 
 </style>
