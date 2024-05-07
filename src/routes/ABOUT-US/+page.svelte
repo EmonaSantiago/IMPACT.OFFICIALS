@@ -6,7 +6,7 @@
                 <li><a href="#section1">Section 1</a></li>
                 <li><a href="#section2">Section 2</a></li>
                 <li><a href="#section3">Section 3</a></li>
-                <li><a href="#section4">Section 4</a></li>
+                <li><a href="#TEAM-IMPACT">TEAM IMPACT</a></li>
             </ul>
         </nav>
     </header>
@@ -18,6 +18,15 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
             </div>
         </section>
+
+        <section id="section">
+          <div class="content">
+              <h2>Quote section</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+          </div>
+      </section>
+
+       
 
         <section id="section2">
             <div class="content">
@@ -33,12 +42,6 @@
             </div>
         </section>
 
-        <section id="section4">
-            <div class="content">
-                <h2>Section 4</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
-            </div>
-        </section>
     </main>
 
     <section id="TEAM-IMPACT">
