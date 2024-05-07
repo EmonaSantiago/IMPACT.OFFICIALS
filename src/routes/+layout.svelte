@@ -23,6 +23,7 @@
 </main>
 
 <style>
+      
     a {
         color: var(--IMPACT-white);
         text-decoration: none;
