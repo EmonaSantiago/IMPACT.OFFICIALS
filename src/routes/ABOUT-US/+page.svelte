@@ -40,6 +40,38 @@
             </div>
         </section>
     </main>
+
+    <section id="TEAM-IMPACT">
+    <h2>TEAM IMPACT</h2>
+    <div class="team-members">
+        <div class="member">
+          <img src="team_member1.jpg" alt="Team Member 1">
+          <h3>Team Lid 1</h3>
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+        </div>
+        <div class="member">
+          <img src="team_member1.jpg" alt="Team Member 1">
+          <h3>Team Lid 1</h3>
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+        </div>
+        <div class="member">
+          <img src="team_member1.jpg" alt="Team Member 1">
+          <h3>Team Lid 1</h3>
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+        </div>
+        <div class="member">
+          <img src="team_member1.jpg" alt="Team Member 1">
+          <h3>Team Lid 1</h3>
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+        </div>
+        <!-- Voeg hier nog 6 van zulke 'member' divs toe -->
+      </div>
+    </section>
+      
 </body>
 
 <style>
@@ -92,11 +124,11 @@ main {
 section {
     margin-bottom: 40px;
 }
-
+/* 
 .content {
  
     padding: 20px;
-}
+} */
 
 @media screen and (min-width: 768px) {
     main {
@@ -118,4 +150,48 @@ section {
         margin-left: 0;
     }
 }
+
+#TEAM-IMPACT {
+    margin: 1em;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.member {
+  flex: 0 1 calc(50% - 10px); /* 2 naast elkaar op mobiel */
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .member {
+    flex: 0 1 calc(33.33% - 10px); /* 3 naast elkaar op tablet */
+  }
+}
+
+@media (min-width: 1024px) {
+  .member {
+    flex: 0 1 calc(25% - 10px); /* 4 naast elkaar op desktop */
+  }
+}
+
+.member img {
+  width: 100%;
+  height: auto;
+}
+
+.member h3 {
+  margin-top: 10px;
+}
+
+.member a {
+  display: block;
+  margin-top: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
 </style>
