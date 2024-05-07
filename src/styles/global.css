@@ -14,4 +14,12 @@
 body { 
     background-color: var(--IMPACT-black);
     color: #F8F053;
+    /* margin: 1em; */
 }
+
+h1 {
+    padding-top: 80px;
+    color: var(--IMPACT-yellow);
+}
+
+

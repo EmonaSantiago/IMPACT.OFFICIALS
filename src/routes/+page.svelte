@@ -65,7 +65,7 @@
     h1 {
         position: static;
         font-size: 100px;
-        padding-top: 80px;
+        /* padding-top: 80px; */
         padding-left: 20px;
     }
     h2 {

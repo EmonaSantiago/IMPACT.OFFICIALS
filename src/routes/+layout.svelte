@@ -37,6 +37,12 @@
     #h3 {
         margin-top: 2em;
     }
+
+    main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    }
     nav {
         margin: 1em;
         position: fixed;
@@ -46,6 +52,7 @@
         bottom: 0;
         margin: 1em;
         color: white;
+        margin-top: auto;
     }
 
 </style>
