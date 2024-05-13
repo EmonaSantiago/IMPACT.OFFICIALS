@@ -5,32 +5,15 @@
       <img src="../src/static/save-the-date.png" alt="Image 1">
       <h2>Title 1</h2>
       <p>Description for Image 1</p>
-      <a href="page1.html">Read More</a>
+      <a href="/WORKSHOP1">Read More</a>
     </div>
     <div class="item">
         <img src="../src/static/save-the-date.png" alt="Image 1">
         <h2>Title 1</h2>
         <p>Description for Image 1</p>
-        <a href="page1.html">Read More</a>
+        <a href="/WORKSHOP1">Read More</a>
       </div>
-      <div class="item">
-        <img src="../src/static/save-the-date.png" alt="Image 1">
-        <h2>Title 1</h2>
-        <p>Description for Image 1</p>
-        <a href="page1.html">Read More</a>
-      </div>
-      <div class="item">
-        <img src="../src/static/save-the-date.png" alt="Image 1">
-        <h2>Title 1</h2>
-        <p>Description for Image 1</p>
-        <a href="page1.html">Read More</a>
-      </div>
-      <div class="item">
-        <img src="../src/static/save-the-date.png" alt="Image 1">
-        <h2>Title 1</h2>
-        <p>Description for Image 1</p>
-        <a href="page1.html">Read More</a>
-      </div>
+      
     <!-- Add more .item divs for additional images -->
   </div>
 </body>
