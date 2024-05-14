@@ -67,7 +67,25 @@
         font-size: 100px;
         /* padding-top: 80px; */
         padding-left: 20px;
+        transition: transform 3s ease-in-out;
+        animation: scaleIn 1s ease-in-out;
     }
+
+    h1:hover {
+        transform: translateX(100%);
+    }
+
+    @keyframes scaleIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
     h2 {
         color: white;
         font-size: 80px;
@@ -181,6 +199,14 @@
     }
 
     /* Media query */
+
+    @media only screen and (min-width: 769px) {
+  /* Styles for desktop-sized screens */
+  /* Add your desktop-specific styles here */
+  h1 {
+    font-size: 200px;
+  }
+}
 
 
 

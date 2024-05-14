@@ -30,6 +30,10 @@
         text-decoration: none;
     }
 
+    a:hover {
+        color: var(--IMPACT-yellow);
+    }
+
     p {
         margin-top: 4px;
         color: var(--IMPACT-white);
@@ -56,5 +60,14 @@
         color: white;
         margin-top: auto;
     }
+
+    @media only screen and (min-width: 620px) {
+  
+    nav {
+        font-size: 1.7vw; 
+    }
+  
+    }
+
 
 </style>
