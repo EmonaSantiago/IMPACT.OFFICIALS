@@ -5,7 +5,7 @@
     </section>
 
     <section id="upcoming">
-        
+        <section class="content">
         <h2>UPCOMING</h2>
         <p>ATTENTION IMPACT : WE’RE BACK ⚠️</p>
 
@@ -13,11 +13,11 @@
         <p>JUNE 1, 2024. MARK IT IN YOUR CALENDAR 📌</p>
         <p>and for all the interested creatives , models or future crew-members out there, be ready for the next post.. 🏃🏻</p>
         <a href="/" class="button">GET TICKETS</a>
-     
+        </section>
   
-
-        <img id="save-the-date" src="src/static/save-the-date.png" alt="Save the date post">
-      
+        <section class="content">
+            <img id="save-the-date" src="src/static/save-the-date.png" alt="Save the date post">
+        </section>
     </section>
 
     <section id="instagram">
@@ -118,6 +118,15 @@
     #upcoming {
         margin: 1em;
         height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content {
+    flex: 1; /* Take up equal space */
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
     }
 
 
@@ -201,12 +210,19 @@
     /* Media query */
 
     @media only screen and (min-width: 769px) {
-  /* Styles for desktop-sized screens */
-  /* Add your desktop-specific styles here */
-  h1 {
-    font-size: 200px;
-  }
-}
+        h1 {
+            font-size: 200px;
+        }
+
+        img#save-the-date {
+        width: 30em;
+        border-radius: 2em;
+        } 
+
+        #upcoming {
+            height: 80vh;
+        }
+    }
 
 
 
