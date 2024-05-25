@@ -1,7 +1,6 @@
 <body>
     <section id="hero-section">
         <h1>IMPACT</h1>
-        <!-- <img src="src/static/logo.png" alt="logo/impact"> -->
     </section>
 
     <section id="upcoming">
@@ -19,11 +18,6 @@
         </section>
   
     </section>
-
-    <!-- <section id="instagram">
-        <img id="instagram-live" src="src/static/instagram.png" alt="instagram live feed">
-    
-    </section> -->
 
     <section id="form">
         <section class="content">
@@ -50,7 +44,6 @@
             <input type="text" name="name" id="full-name" placeholder="type hier..." >
         </label>
         
-        <!-- your other form fields go here -->
         <button type="submit">SUBMIT</button>
         </form>
     </section>
@@ -66,7 +59,6 @@
     h1 {
         position: static;
         font-size: 100px;
-        /* padding-top: 80px; */
         padding-left: 20px;
         transition: transform 3s ease-in-out;
         animation: scaleIn 1s ease-in-out;
@@ -107,25 +99,21 @@
 
     #hero-section {
         background-image: url("/src/static/aftermovie.png");
-        /* Full height */
         height: 100vh; 
-
-        /* Center and scale the image nicely */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
     
     #upcoming {
-        /* margin: 1em; */
         height: 100vh;
         display: flex;
         flex-wrap: wrap;
+        border-bottom: solid 2px white;
     }
 
     .content {
-    flex: 1; /* Take up equal space */
-    /* margin: 10px; */
+    flex: 1;
     padding: 20px;
     box-sizing: border-box;
     }
@@ -149,29 +137,13 @@
         border-radius: 2em;
     }
 
-    #instagram {
-        height: 100vh;
-        margin: 1em;
-    }
-
     #form {
-        margin: 1em;
-        height: 100vh;
         color: white;
-        height: 100vh;
+        height: auto;
         display: flex;
         flex-wrap: wrap;
+        border-bottom: solid 2px white;
     }
-
-    /* img#instagram-live{
-    width: 100%;
-    border: solid 1px var(--IMPACT-yellow);
-    } */
-
-    #instagram {
-        background-color: grey;
-    }
-
     input[type=text]{
     width: 100%;
     padding: 12px 20px;
@@ -211,6 +183,7 @@
         border-radius: 2em;
     }
 
+
     /* Media query */
 
     @media only screen and (min-width: 769px) {
@@ -218,12 +191,21 @@
             font-size: 200px;
         }
 
-        img#save-the-date {
+        /* img#save-the-date {
         width: 30em;
         border-radius: 2em;
         } 
 
+        img#team {
+        width: 30em;
+        border-radius: 2em;
+        }  */
+
         #upcoming {
+            height: auto;
+        }
+
+        #form {
             height: 80vh;
         }
     }
