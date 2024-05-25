@@ -6,6 +6,9 @@
 
     <section id="upcoming">
         <section class="content">
+            <img id="save-the-date" src="src/static/save-the-date.png" alt="Save the date post">
+        </section>
+        <section class="content">
         <h2>UPCOMING</h2>
         <p>ATTENTION IMPACT : WE’RE BACK ⚠️</p>
 
@@ -15,17 +18,15 @@
         <a href="/" class="button">GET TICKETS</a>
         </section>
   
-        <section class="content">
-            <img id="save-the-date" src="src/static/save-the-date.png" alt="Save the date post">
-        </section>
     </section>
 
-    <section id="instagram">
-        <!-- <img id="instagram-live" src="src/static/instagram.png" alt="instagram live feed"> -->
+    <!-- <section id="instagram">
+        <img id="instagram-live" src="src/static/instagram.png" alt="instagram live feed">
     
-    </section>
+    </section> -->
 
     <section id="form">
+        <section class="content">
         <h2>FEEDBACK</h2>
         <p>Jouw IMPACT telt! Vertel ons hoe het was. Jouw feedback maakt het verschil. Vul ons formulier in en laat ons samen groeien!</p>
         <form
@@ -52,10 +53,10 @@
         <!-- your other form fields go here -->
         <button type="submit">SUBMIT</button>
         </form>
-
-
+    </section>
+        <section class="content">
         <img id="team" src="src/static/team.png" alt="Save the date post">
-
+    </section>
     </section>
 </body>
 
@@ -116,7 +117,7 @@
     }
     
     #upcoming {
-        margin: 1em;
+        /* margin: 1em; */
         height: 100vh;
         display: flex;
         flex-wrap: wrap;
@@ -124,7 +125,7 @@
 
     .content {
     flex: 1; /* Take up equal space */
-    margin: 10px;
+    /* margin: 10px; */
     padding: 20px;
     box-sizing: border-box;
     }
@@ -157,6 +158,9 @@
         margin: 1em;
         height: 100vh;
         color: white;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     /* img#instagram-live{
