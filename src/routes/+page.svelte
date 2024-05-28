@@ -5,9 +5,6 @@
 
     <section id="upcoming">
         <section class="content">
-            <img id="save-the-date" src="src/static/save-the-date.png" alt="Save the date post">
-        </section>
-        <section class="content">
         <h2>UPCOMING</h2>
         <p>ATTENTION IMPACT : WE’RE BACK ⚠️</p>
 
@@ -15,6 +12,9 @@
         <p>JUNE 1, 2024. MARK IT IN YOUR CALENDAR 📌</p>
         <p>and for all the interested creatives , models or future crew-members out there, be ready for the next post.. 🏃🏻</p>
         <a href="/" class="button">GET TICKETS</a>
+        </section>
+        <section class="content">
+            <img id="save-the-date" src="src/static/save-the-date.png" alt="Save the date post">
         </section>
   
     </section>
@@ -48,7 +48,7 @@
         </form>
     </section>
         <section class="content">
-        <img id="team" src="src/static/team.png" alt="Save the date post">
+            <img id="team" src="src/static/save-the-date.png" alt="Save the date post">
     </section>
     </section>
 </body>
@@ -65,7 +65,7 @@
     }
 
     h1:hover {
-        transform: translateX(100%);
+        transform: translatey(100%);
     }
 
     @keyframes scaleIn {
@@ -106,10 +106,10 @@
     }
     
     #upcoming {
-        height: 100vh;
+        height: auto;
         display: flex;
         flex-wrap: wrap;
-        border-bottom: solid 2px white;
+        /* border-bottom: solid 2px white; */
     }
 
     .content {
@@ -132,17 +132,12 @@
         cursor: pointer;
     }
 
-    img#save-the-date {
-        width: 100%;
-        border-radius: 2em;
-    }
-
     #form {
         color: white;
         height: auto;
-        display: flex;
-        flex-wrap: wrap;
-        border-bottom: solid 2px white;
+        /* display: flex;
+        flex-wrap: wrap; */
+        /* border-bottom: solid 2px white; */
     }
     input[type=text]{
     width: 100%;
@@ -183,22 +178,15 @@
         border-radius: 2em;
     }
 
+    @media (min-width: 600px)  {
 
-    /* Media query */
-/* 
-    @media only screen and (min-width: 769px) {
-        h1 {
-            font-size: 200px;
-        }
-        #upcoming {
-            height: auto;
-        }
+    #upcoming {
+        height: 80vh;}
+    }
 
-        #form {
-            height: 80vh;
-        }
-    } */
-
+    #upcoming img{
+        width: 100%;
+    }
 
 
 </style>

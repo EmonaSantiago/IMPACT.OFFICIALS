@@ -1,17 +1,18 @@
 <script>
     import "../styles/global.css"
 </script>
+<body>
 <div class="container">
     <div class="content">
 <main>
-    <nav>
+    <nav id="navbar">
         <a href="/">HOME</a> |
         <a href="/TIMELINE">TIMELINE</a> |
         <a href="/CREATIVES">CREATIVES</a> |
         <a href="/WORKSHOPS">WORKSHOPS</a> | 
         <a href="/ABOUT-US">ABOUT US</a> |
         <a href="/CONTACT">CONTACT</a> |
-    </nav>
+</nav>
 <slot/>
 <div class="footer">
     <h3>CONTACTGEGEVENS</h3>
@@ -26,6 +27,7 @@
 </main>
 </div>
 </div>
+</body>
 
 <style>
       
@@ -53,19 +55,26 @@
     display: flex;
     flex-direction: column;
     }
-    nav {
-        margin: 1em;
-        position: fixed;
-    }
+    #navbar {
+    padding: 1em;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  /* font-size: 1.2rem; */
+  overflow: hidden;
+}
 
     .footer {
         bottom: 0;
-        margin: 1em;
+        padding: 1em;
         color: white;
         margin-top: auto;
+        background-color: black;
     }
 
-  .container {
+  /* .container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,11 +84,33 @@
   }
 
   .content {
-    width: 375px; /* Width of the mobile layout */
+    width: 375px; 
     max-width: 100%;
-    background: rgb(0, 0, 0); /* Background color of the mobile content */
-    /* box-shadow: 0 0 10px rgba(226, 246, 13, 0.829); */
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(226, 246, 13, 0.829);
     border-radius: 20px;
+  } */
+   body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url("/src/static/background.png"); 
+    background-size: cover; */
+    background-color: black;
+  }
+
+
+  .container {
+    width: 100%;
+    max-width: 768px; /* iPad width */
+    margin: 0 auto;
+    /* box-shadow: 0 4px 8px var(--IMPACT-yellow); */
+  }
+
+  @media (max-width: 468px) {
+    .container {
+      width: 100%;
+  
+    }
   }
 
 
