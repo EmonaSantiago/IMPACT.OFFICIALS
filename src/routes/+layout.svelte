@@ -1,6 +1,8 @@
 <script>
     import "../styles/global.css"
 </script>
+<div class="container">
+    <div class="content">
 <main>
     <nav>
         <a href="/">HOME</a> |
@@ -22,6 +24,8 @@
     <p>© 2024 IMPACT</p>
   </div>
 </main>
+</div>
+</div>
 
 <style>
       
@@ -61,13 +65,22 @@
         margin-top: auto;
     }
 
-    @media only screen and (min-width: 620px) {
-  
-    nav {
-        font-size: 1.7vw; 
-    }
-  
-    }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('/path/to/your/background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  .content {
+    width: 375px; /* Width of the mobile layout */
+    max-width: 100%;
+    background: rgb(0, 0, 0); /* Background color of the mobile content */
+    /* box-shadow: 0 0 10px rgba(226, 246, 13, 0.829); */
+    border-radius: 20px;
+  }
 
 
 </style>

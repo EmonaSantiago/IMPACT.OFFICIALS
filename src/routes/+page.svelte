@@ -185,22 +185,11 @@
 
 
     /* Media query */
-
+/* 
     @media only screen and (min-width: 769px) {
         h1 {
             font-size: 200px;
         }
-
-        /* img#save-the-date {
-        width: 30em;
-        border-radius: 2em;
-        } 
-
-        img#team {
-        width: 30em;
-        border-radius: 2em;
-        }  */
-
         #upcoming {
             height: auto;
         }
@@ -208,7 +197,7 @@
         #form {
             height: 80vh;
         }
-    }
+    } */
 
 
 
