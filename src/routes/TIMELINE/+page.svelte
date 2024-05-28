@@ -1,4 +1,4 @@
-<body>
+
     <h1>TIMELINE</h1>
     <div class="timeline">
         <div class="section">
@@ -48,22 +48,18 @@
         </div>
         <!-- Voeg meer secties toe zoals nodig -->
     </div>
-</body>
+
 <style>
     h1 {
         color: var(--IMPACT-yellow);
         margin-left: 1em;
     }
 
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
 
     .timeline {
         position: relative;
         width: 100%;
+        z-index: 1;
         /* height: 100vh; */
     }
 

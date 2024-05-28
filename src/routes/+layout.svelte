@@ -64,6 +64,7 @@
   backdrop-filter: blur(10px);
   /* font-size: 1.2rem; */
   overflow: hidden;
+  z-index: 1000;
 }
 
     .footer {
